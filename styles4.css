@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(172, 131, 255));
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.phone-container {
+    background-color: white;
+    width: 350px;
+    height: 700px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.account-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Separa el icono y el texto */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.profile-icon {
+    width: 100px;
+    height: 120px;
+    align-self: flex-start; /* Mueve el icono hacia la izquierda */
+}
+
+.account-text {
+    text-align: right;
+}
+
+
+button {
+    background: #b3b5b4a8;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 90%;
+    margin: 5px auto;
+}
+
+
+#video {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 10px; /* Ajuste de tamaño */
+    height: 10px; /* Ajuste de tamaño */
+}
