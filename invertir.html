@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billetera Virtual - Invertir</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Realizar una Inversión</h1>
+        <form id="inversionForm">
+            <label for="monto">Monto a Invertir:</label>
+            <input type="number" id="monto" name="monto" placeholder="Ingrese el monto">
+            <br>
+            <label for="activo">Seleccionar Activo:</label>
+            <select id="activo" name="activo">
+                <option value="acciones">Acciones</option>
+                <option value="bonos">Bonos</option>
+                <option value="fondos_indexados">Fondos Indexados</option>
+                <option value="criptomonedas">Criptomonedas</option>
+            </select>
+            <br>
+            <label for="plazo">Plazo (meses):</label>
+            <input type="number" id="plazo" name="plazo" placeholder="Ingrese el plazo">
+            <br>
+            <a href="app.html">Invertir</a>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
