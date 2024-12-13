@@ -7,7 +7,7 @@ button {
     color: darkblue;
     cursor: pointer;
     border: none;
-    background: white;
+    background: none;
 }
 
 #ayuda{
