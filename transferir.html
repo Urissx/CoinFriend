@@ -4,29 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Billetera Virtual - Transferir</title>
-    <link rel="stylesheet" href="styles.css"> </head>
+    <link rel="stylesheet" href="styles5.css"> </head>
+    <button onclick="location.href='./app.html'">←</button>
 <body>
-    <div class="container">
-        <h1>Realizar una Transferencia</h1>
-        <form id="transferForm">
-            <label for="cuentaOrigen">Cuenta Origen:</label>
-            <select id="cuentaOrigen" name="cuentaOrigen">
-                <option value="cuenta1">Cuenta 1</option>
-                <option value="cuenta2">Cuenta 2</option>
-                </select>
-            <br>
-            <label for="cuentaDestino">Alias</label>
-            <input type="text" id="cuentaDestino" name="cuentaDestino" placeholder="Ingrese la cuenta destino" required>
-            <br>
-            <label for="monto">Cantidad:</label>
-            <input type="number" id="monto" name="monto" placeholder="Ingrese el monto a transferir" required>
-            <br>
-            <label for="concepto">Motivo (Opcional):</label>
-            <textarea id="concepto" name="Descripcion" rows="3" placeholder="Ingrese la Descripcion(opcional)"></textarea>
-            <br>
-            <a href="app.html">Transferir</a>
-            
-        </form>
-    </div>
-    <script src="script.js"></script> </body>
+        <div class="container">
+            <h1>Realizar Transferencia</h1>
+            <form>
+                <label for="cuentaDestino">Alias</label>
+                <input type="text" id="Alias" name="Alias" required>
+    
+                <label for="monto">Cantidad</label>
+                <input type="number" id="Cantidad" name="Cantidad" required>
+    
+                <label for="concepto">Motivo (Opcional)</label>
+                <input type="text" id="Motivo" name="Motivo">
+    
+                <button type="submit">Transferir</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
 </html>
